@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Boss Button",
+  "description": "Load a new web page when the boss is creeping.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon2.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+    },
+  "permissions": [
+     "storage"
+  ],
+  "options_page": "options.html"
+}
